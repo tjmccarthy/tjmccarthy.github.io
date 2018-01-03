@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Trevor J. McCarthy, Site Status"
+title: "Site Status"
 date: 2018-01-02
 ---
 It's a new year with plenty of objectives to conquer. Among them is turning this 4-month-old blank page into something functional while
