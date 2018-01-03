@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Trevor J. McCarthy's Blog</title>
-	<link href="http://tjmccarthy.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://tjmccarthy.github.io/blog"/>
+	<link href="https://tjmccarthy.github.io/blog/atom.xml" rel="self"/>
+	<link href="https://tjmccarthy.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://tjmccarthy.github.io/blog</id>
+	<id>https://tjmccarthy.github.io/blog</id>
 	<author>
 		<name>Trevor J. McCarthy</name>
 		<email>trevorjmccarthy@gmail.com</email>
@@ -17,9 +17,9 @@ layout: feed
 	{% for post in site.posts %}
 		<entry>
 			<title>{{ post.title }}</title>
-			<link href="http://tjmccarthy.github.io{{ post.url }}"/>
+			<link href="https://tjmccarthy.github.io{{ post.url }}"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://tjmccarthy.github.io{{ post.id }}</id>
+			<id>https://tjmccarthy.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
